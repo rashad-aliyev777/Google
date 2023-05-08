@@ -126,15 +126,11 @@ span {
 .footer-2 {
     display: flex;
     justify-content: space-between;
-    /* padding: 10px; */
     background-color: #f8f9fa;
-}
-.footer-sol {
-    
 }
 .footer-2 a {
     color: cadetblue;
-    padding: 10px;
+    padding: 18px;
     font-size: 18px;
 }
 /* 2-ci footer end */
