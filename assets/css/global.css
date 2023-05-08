@@ -1,0 +1,143 @@
+@import url(./reset.css);
+
+:root {
+    --qara-reng:var(#000);
+    --aciq-goy:var(#1a73e8);  
+    --ag-reng:var(#fff);
+}
+/* header hissesi */
+.basliq-hissesi {
+    padding-right: 8px;
+}
+.header-sag button {
+    background-color: #1a73e8;
+    border: none;
+    padding: 10px 23px;
+    color: #fff;
+    border-radius: 5px;
+}
+.header-sag {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+}
+.header-link {
+    padding-top: 7px;
+    color:var(--qara-reng);
+    font-size: 17px;
+}
+.header-sag a {
+    padding-right: 15px;
+}
+.header-icon {
+    width: 25px;
+    padding-top: 4px;
+}
+/* header end */
+/* header media start */
+
+/* header media end */
+/* Google section hissesi start */
+.google-hissesi {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.logo {
+    text-align: center;
+}
+.google-hissesi img {
+    width: 20%;
+}
+.axtaris-icon {
+    width: 20px;
+}
+.input {
+    border: 1px solid #bbb;
+    height: 34px;
+    min-width: 437px;
+    border-radius: 25px;
+    position: relative;
+}
+input {
+    width: 100%;
+    height: 95%;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    opacity: .4;
+}
+.input:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0,.2);
+}
+.axtaris-icon {
+    position: absolute;
+    top: 22%;
+    left: 2%;
+}
+.buttonlar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.buttonlar button {
+    border-radius: 5px;
+    padding: 12px;
+    border: none;
+    background-color: #f8f9fa;
+}
+.az {
+    padding-left: 3px;
+    color: cadetblue;
+}
+.rus {
+    padding-left: 5px;
+    color: cadetblue;
+}
+span {
+    display: inline-block;    
+    padding-top: 20px;
+    padding-left: 70px;
+}
+/* Google hissesi end */
+/* google section media start */
+
+/* google section media end */
+/* 1-ci footer start */
+.footer-1 {
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+.footer h3 {
+    font-size: 19px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: cadetblue;
+}
+/* 1-ci footer end */
+/* 1-ci footer media start */
+
+/* 1-ci footer media end */
+/* 2-ci footer start */
+.footer-2 {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    background-color: #f8f9fa;
+}
+.footer-sol {
+    
+}
+.footer-2 a {
+    color: cadetblue;
+    padding: 10px;
+    font-size: 18px;
+}
+/* 2-ci footer end */
+/* 2-ci footer media start */
+
+/* 2-ci footer media end */
